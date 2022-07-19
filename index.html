@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header class="container-fluid bg-dark">
+    <section class="row">
+      <h3>Guess Who</h3>
+    </section>
+  </header>
+  <main class="container-fluid">
+    <section id="villains" class="row">
+      <!-- NOTE comment here is a good place holder to remind you something will be 'injected' here -->
+      <!-- <div class="col-4">Villain Name</div> -->
+    </section>
+    <section class="row">
+      <button class=" col-6 btn btn-warning" onclick="filterHats()">Hat</button>
+      <button class=" col-6 btn btn-warning" onclick="filterHair()">Hair</button>
+      <button class=" col-6 btn btn-warning" onclick="filterFifty()">Over 50</button>
+      <button class=" col-6 btn btn-warning" onclick="filterNoBeard()">No Facial Hair</button>
+      <button class=" col-6 btn btn-warning" onclick="filterMale()">Guys</button>
+      <button class=" col-6 btn btn-warning" onclick="filterFemale()">Gals</button>
+      <button class=" col-6 btn btn-info" onclick="filterStuff('hat')">Hat</button>
+      <button class=" col-6 btn btn-info" onclick="filterStuff('hair')">Hair</button>
+      <button class=" col-6 btn btn-info" onclick="filterStuff('gender')">Gender</button>
+      <button class=" col-6 btn btn-info" onclick="filterStuff('facialHair')">Facial Hair</button>
+      <button class=" col-6 btn btn-info" onclick="filterStuff('age')">Age</button>
+    </section>
+  </main>
+
+
+
+  <script src="app.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
